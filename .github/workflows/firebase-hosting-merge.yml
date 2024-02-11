@@ -15,6 +15,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_ESSENTIALS_88B6F }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEARN_REACT_ESSENTIAL_D0F22 }}'
           channelId: live
-          projectId: learn-react-essential
+          projectId: learn-react-essential-d0f22
